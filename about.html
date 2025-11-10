@@ -12,6 +12,7 @@
 </head>
 <body>
   <div id="background-animation"></div>
+
   <header class="navbar">
     <div class="logo">Navin Bhattarai</div>
     <nav>
@@ -22,25 +23,26 @@
         <li><a href="contact.html">Contact</a></li>
       </ul>
       <div class="hamburger" aria-label="Toggle navigation menu" role="button" tabindex="0" onclick="toggleMenu()">
-        <span></span>
-        <span></span>
-        <span></span>
+        <span></span><span></span><span></span>
       </div>
     </nav>
   </header>
 
+  <!-- Intro Banner -->
   <section class="intro-about">
     <div class="intro-content">
+      <!-- Use your preferred image path -->
       <img src="images/navin-headshot.jpg" alt="Navin Bhattarai" class="intro-image">
       <div class="intro-text">
-        <h1>Hi, I'm Navin</h1>
+        <h1 class="gradient-text">Hi, I'm Navin</h1>
         <p>Engineering student passionate about 3D modeling, mechanical design, and turning ideas into prototypes.</p>
       </div>
     </div>
   </section>
 
+  <!-- About Story -->
   <section id="about">
-    <div class="about-text">
+    <div class="about-text container">
       <h2>My Journey</h2>
       <p>I’m a junior at Washington University in St. Louis, transitioning from Physics to Mechanical Engineering. My passion lies in creating innovative solutions through 3D modeling, CAD design, and prototyping.</p>
       <p>I’ve worked on projects like dye-sensitized solar cells to improve energy efficiency and built an automated humidifier control system using Raspberry Pi. As a Building Operations Manager at Truman State University, I honed my problem-solving skills, managing facility operations and safety protocols.</p>
@@ -49,23 +51,82 @@
     </div>
   </section>
 
+  <!-- Education: Road Timeline -->
+  <section class="education-timeline-wrap">
+    <div class="education-timeline">
+      <h3 class="gradient-text" style="font-family:'Rajdhani',sans-serif; font-size:2rem; margin: 0 0 1rem 0;">Education</h3>
+
+      <div class="timeline-item left">
+        <h4>Washington University in St. Louis</h4>
+        <span>2023 – 2026 · B.S. Mechanical &amp; Aerospace Engineering · GPA&nbsp;3.9</span>
+        <p>Coursework in structural analysis, aerospace propulsion, and advanced CAD. Member of Design/Build/Fly (Structures).</p>
+      </div>
+
+      <div class="timeline-item right">
+        <h4>Truman State University</h4>
+        <span>2020 – 2023 · B.A. Physics · GPA&nbsp;4.0</span>
+        <p>Classical mechanics, materials, and lab leadership. Building Operations Manager and STEM outreach volunteer.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
   <section class="skills-section">
     <h2>Skills</h2>
+
+    <!-- quick chips -->
     <ul class="skills-list">
       <li><span class="skill-tag">SolidWorks</span></li>
+      <li><span class="skill-tag">Onshape</span></li>
+      <li><span class="skill-tag">AutoCAD</span></li>
       <li><span class="skill-tag">Raspberry Pi</span></li>
-      <li><span class="skill-tag">CAD Design</span></li>
-      <li><span class="skill-tag">Prototyping</span></li>
       <li><span class="skill-tag">Python</span></li>
-      <li><span class="skill-tag">3D Modeling</span></li>
+      <li><span class="skill-tag">Prototyping</span></li>
+      <li><span class="skill-tag">3D Printing</span></li>
     </ul>
+
+    <!-- categorized grid -->
+    <div class="skills-grid container">
+      <div>
+        <h4>CAD &amp; Design</h4>
+        <ul>
+          <li>SolidWorks, Onshape</li>
+          <li>AutoCAD 2D/3D</li>
+          <li>DFM/DFA, GD&amp;T</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Programming</h4>
+        <ul>
+          <li>MATLAB, Python</li>
+          <li>C++ (basic)</li>
+          <li>Data/Plotting &amp; automation scripts</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Manufacturing</h4>
+        <ul>
+          <li>3D Printing (FDM &amp; SLA)</li>
+          <li>Manual mill/lathe, basic CNC</li>
+          <li>Assembly, Tolerance stackups</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Aerospace</h4>
+        <ul>
+          <li>Structures &amp; materials</li>
+          <li>Flight dynamics</li>
+          <li>Aerodynamics basics</li>
+        </ul>
+      </div>
+    </div>
   </section>
 
   <footer>
     <div class="footer-section">
       <h3>Contact Info</h3>
       <p>Email: <a href="mailto:navin.bhattarai515@gmail.com" aria-label="Email Navin Bhattarai">navin.bhattarai515@gmail.com</a></p>
-      <p>Phone: <a href="tel:+1-555-555-5555" aria-label="Call Navin Bhattarai">+1 (555) 555-5555</a></p>
+      <p>Phone: <a href="tel:+1-660-280-5163" aria-label="Call Navin Bhattarai">+1 (660) 280-5163</a></p>
     </div>
     <div class="footer-section">
       <h3>Connect</h3>
